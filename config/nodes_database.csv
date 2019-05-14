@@ -1,0 +1,6 @@
+puppet-master,puppet,vm,gs,slac,us,role::it::puppet_master,,production
+lsst-uno,ats,vm,ccs,slac,us,role::ccs::ats_ccs_localdb,profile::it::monitoring,production
+lsst-lion,ats,vm,ccs,slac,us,role::ccs::ats_ccs_default,,production
+influxdb,influxdb,vm,gs,slac,us,role::it::influxdb,,production
+grafana,grafana,vm,gs,slac,us,role::it::grafana,,production
+graylog,graylog,vm,gs,slac,us,role::it::graylog,,production
